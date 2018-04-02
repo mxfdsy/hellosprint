@@ -1,11 +1,23 @@
 package com.hellosprint.entity;
 
+import java.util.List;
+
 /**
  * Created by 平凡的世界 on 2018/4/2.
  */
 public class User {
     private String name;
     private int age;
+
+    public List<String> getList() {
+        return list;
+    }
+
+    public void setList(List<String> list) {
+        this.list = list;
+    }
+
+    private List<String> list;
 
     public User(){}
 
