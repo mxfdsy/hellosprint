@@ -21,12 +21,12 @@ public class Main {
 
         UserFather uf = context.getBean(UserFather.class);
         System.out.println(uf.getFatherName());
-
-        User bU =  context.getBean(User.class);
-        List<String> list = bU.getList();
-        for (String ls:list
-             ) {
-            System.out.println(ls);
-        }
+        //系统报错
+//        User bU =  context.getBean(User.class);
+//        List<String> list = bU.getList();
+//        for (String ls:list
+//             ) {
+//            System.out.println(ls);
+//        }
     }
 }

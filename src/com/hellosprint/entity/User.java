@@ -17,6 +17,7 @@ public class User {
         this.list = list;
     }
 
+
     private List<String> list;
 
     public User(){}
